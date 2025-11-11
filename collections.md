@@ -1,0 +1,2 @@
+- https://github.com/the-nix-way/dev-templates
+- https://github.com/NixOS/templates/tree/master
