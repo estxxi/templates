@@ -1,11 +1,13 @@
 {
   // EDITOR SETTINGS
   // What this actually does depends on the language server configuration.
-  "editor.formatOnSave": true,
-  "editor.inlayHints.enabled": "off",
   "editor.wordWrap": "on",
   "editor.tabSize": 2,
   // NIX LANGUAGE SUPPORT
+  "[nix]": {
+    "editor.formatOnSave": true,
+    "editor.inlayHints.enabled": "off",
+  },
   "nix.enableLanguageServer": true,
   "nix.serverPath": "nixd",
   // LSP config can be passed via the ``nix.serverSettings.{lsp}`` as shown below.
