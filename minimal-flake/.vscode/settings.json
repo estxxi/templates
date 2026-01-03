@@ -14,7 +14,7 @@
     "nixd": {
       "nixpkgs": {
         // Nixd provides package, lib completion/information from here.
-        "expr": "import (builtins.getFlake ../).inputs.nixpkgs { }"
+        "expr": "import (builtins.getFlake (builtins.toString ./.)).inputs.nixpkgs { }"
       },
       "formatting": {
         "command": [
