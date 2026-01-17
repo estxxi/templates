@@ -6,7 +6,7 @@
   };
 
   outputs =
-    { self, nixpkgs, ... }:
+    { nixpkgs, ... }:
     let
       inherit (nixpkgs.lib) genAttrs;
       supportedSystems = [
